@@ -1,0 +1,116 @@
+.bird {
+  position: absolute;
+  animation-timing-function: linear; /* Smooth, consistent speed */
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+}
+
+/* Keyframes for left-to-right motion */
+@keyframes fly-left-to-right {
+  0% {
+    transform: translateX(-20vw); /* Start slightly off-screen on the left */
+  }
+  100% {
+    transform: translateX(100vw); /* Move completely off-screen to the right */
+  }
+}
+
+/* Keyframes for right-to-left motion */
+@keyframes fly-right-to-left {
+  0% {
+    transform: translateX(100vw); /* Start off-screen on the right */
+  }
+  100% {
+    transform: translateX(-20vw); /* Move completely off-screen to the left */
+  }
+}
+
+/* Individual bird animations for left-to-right */
+.bird-1 {
+  width: 5rem;
+
+  top: 40%; /* Different vertical position */
+  animation: fly-left-to-right 25s infinite; /* Different speed and timing */
+}
+
+.bird-2 {
+  top: 30%;
+  width: 6rem;
+
+  animation: fly-left-to-right 20s infinite;
+}
+
+/* Individual bird animations for right-to-left */
+.bird-3 {
+  width: 8rem;
+
+  top: 34%; /* Middle position */
+  animation: fly-right-to-left 19s infinite; /* Slower animation */
+}
+
+.bird-4 {
+  width: 3.5rem;
+
+  top: 20%; /* Lower position */
+  animation: fly-right-to-left 16s infinite; /* Faster animation */
+}
+
+.bird-5 {
+  width: 5rem;
+
+  top: 10%; /* Close to middle */
+  animation: fly-right-to-left 14s infinite; /* Intermediate speed */
+}
+.cloud {
+  position: absolute;
+}
+
+/* Cloud Animations */
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-200px);
+  }
+}
+
+/* Cloud 1 - Left to Right */
+.cloud1 {
+  top: 50px;
+  animation: moveLeftToRight 45s linear infinite;
+}
+
+/* Cloud 2 - Right to Left */
+.cloud2 {
+  top: 150px;
+  animation: moveRightToLeft 20s linear infinite;
+}
+
+/* Cloud 3 - Left to Right */
+.cloud3 {
+  top: 250px;
+  animation: moveLeftToRight 32s linear infinite;
+}
+
+/* Cloud 4 - Right to Left */
+.cloud4 {
+  top: 350px;
+  animation: moveRightToLeft 48s linear infinite;
+}
+
+/* Cloud 5 - Left to Right */
+.cloud5 {
+  top: 70px;
+  animation: moveLeftToRight 53s linear infinite;
+}
