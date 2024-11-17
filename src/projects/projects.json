@@ -3,32 +3,32 @@
     "name": "Eco-Archive",
     "description": "Eco-Archive is a recycling depot app designed to promote environmental sustainability. Users can schedule and manage pick-ups or drop-offs of recyclable materials, making recycling convenient and accessible. The app encourages eco-friendly habits and helps contribute to a cleaner environment.",
     "images": [
-      "../../public/eco-auth.png",
-      "../../public/eco-dash.png",
-      "../../public/eco-pick.png",
-      "../../public/eco-drop.png"
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803168/eco-auth_yaxtkl.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803169/eco-dash_zjkid4.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803171/eco-pick_vrwgpg.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803171/eco-drop_l4kysw.png"
     ]
   },
   {
     "name": "Co-Pilot",
     "description": "Co-Pilot is a next-generation flight booking app that redefines travel planning by blending convenience, social connectivity, and adventure. With Co-Pilot, users can create personalized profiles, connect with friends, and collaboratively plan trips together. The app enables seamless flight bookings, allowing users to book the same flights as their friends effortlessly. Whether you're organizing a group getaway, reuniting with loved ones, or exploring new destinations, Co-Pilot makes coordinating travel plans a breeze. Beyond flight reservations, users can also create and manage trips, fostering a sense of community and shared experiences. Say goodbye to the hassle of disjointed travel arrangements and hello to a smarter, more social way to fly. Co-Pilot is your ultimate travel companion for building memories and strengthening connections, one flight at a time.",
     "images": [
-      "../../public/co-book.png",
-      "../../public/co-friend.png",
-      "../../public/co-group.png",
-      "../../public/co-trip.png"
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803164/co-book_osrizk.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803164/co-friend_lsjng0.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803165/co-group_ch5lxo.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803164/co-trip_o4tpq8.png"
     ]
   },
   {
     "name": "Care Nest",
     "description": "Care Nest is a revolutionary platform that reimagines childcare by connecting parents with trusted daycares in their area. Similar to Airbnb but tailored for daycares, Care Nest allows users to browse, compare, and book daycare services effortlessly. Parents can create profiles, explore highly rated facilities, and even read reviews from other families to make informed decisions. Whether you need regular daycare services or a one-time solution, Care Nest simplifies the process, giving you peace of mind knowing your child is in safe hands. Designed with both families and providers in mind, the app also allows daycare centers to showcase their offerings and manage bookings efficiently. Care Nest is the ultimate solution for busy parents seeking reliable childcare, fostering a community of care and trust.",
     "images": [
-      "../../public/day-1.png",
-      "../../public/day-2.png",
-      "../../public/day-3.png",
-      "../../public/day-4.png",
-      "../../public/day-5.png",
-      "../../public/day-6.png"
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803173/day-1_cceel2.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803168/day-2_zgco0j.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803167/day-3_ardzi2.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803175/day-4_rgoe3i.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803170/day-5_bej3vu.png",
+      "https://res.cloudinary.com/dx0n3s9h4/image/upload/v1731803167/day-6_cz84xn.png"
     ]
   }
 ]
