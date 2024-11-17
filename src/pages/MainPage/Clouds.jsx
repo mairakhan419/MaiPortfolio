@@ -9,7 +9,7 @@ function Clouds() {
         height="100"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g fill="white">
+        <g fill="#f8f8f8">
           <ellipse cx="60" cy="50" rx="30" ry="20" />
           <ellipse cx="90" cy="40" rx="30" ry="20" />
           <ellipse cx="120" cy="50" rx="30" ry="20" />
@@ -23,7 +23,7 @@ function Clouds() {
         height="100"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g fill="white">
+        <g fill="#f8f8f8">
           <ellipse cx="60" cy="50" rx="30" ry="20" />
           <ellipse cx="90" cy="40" rx="30" ry="20" />
           <ellipse cx="120" cy="50" rx="30" ry="20" />
@@ -37,7 +37,7 @@ function Clouds() {
         height="75"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g fill="white">
+        <g fill="#f8f8f8">
           <ellipse cx="45" cy="35" rx="25" ry="15" />
           <ellipse cx="70" cy="25" rx="25" ry="15" />
           <ellipse cx="100" cy="35" rx="25" ry="15" />
@@ -51,7 +51,7 @@ function Clouds() {
         height="90"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g fill="white">
+        <g fill="#f8f8f8">
           <ellipse cx="50" cy="45" rx="35" ry="20" />
           <ellipse cx="90" cy="35" rx="35" ry="20" />
           <ellipse cx="130" cy="45" rx="35" ry="20" />
