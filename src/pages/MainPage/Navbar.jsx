@@ -4,14 +4,15 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 function Navbar() {
   const navigation = [
     { name: 'Home', link: 'home' },
-    { name: 'Projects', link: 'projects' },
     { name: 'Skills', link: 'skills' },
+
+    { name: 'Projects', link: 'projects' },
   ];
 
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 400);
   const [isHidden, setIsHidden] = useState(false);
   const [isScroll, setIsScroll] = useState(false);
-
+  const [sidebar, setSidebar] = useState(false);
   let lastScrollY = 0;
 
   // Handle screen size detection
@@ -65,10 +66,42 @@ function Navbar() {
   if (isSmallScreen) {
     return (
       <div>
+        <>
+          <div
+            className={`${
+              sidebar ? 'translate-x-0' : 'translate-x-full'
+            } fixed right-0 top-0 z-[999] h-screen w-full bg-white shadow-lg transition-transform duration-300 ease-in-out`}
+          >
+            <div className="flex items-center justify-between border-b border-gray-200 p-5">
+              <div className="font-poppins text-lg font-light">Maira Khan</div>
+              <div
+                onClick={() => setSidebar(false)}
+                className="cursor-pointer rounded-full p-2 hover:bg-gray-200"
+              >
+                <RxHamburgerMenu size={20} />
+              </div>
+            </div>
+            <nav className="mt-6 flex flex-col gap-4 px-4 text-base font-medium">
+              {navigation.map((nav, index) => (
+                <div
+                  key={index}
+                  onClick={() => {
+                    handleScrollToSection(nav.link);
+                    setSidebar(false);
+                  }}
+                  className="cursor-pointer rounded-md px-3 py-2 text-gray-700 transition hover:bg-gray-100"
+                >
+                  {nav.name}
+                </div>
+              ))}
+            </nav>
+          </div>
+        </>
         <div
           className={`absolute right-[1rem] top-0 z-[101] ${isScroll ? 'pt-[1.5rem]' : 'pt-[1rem]'} transition-all duration-500 ease-in-out`}
         >
           <div
+            onClick={() => setSidebar(true)}
             className={`${isScroll && 'burger'} flex h-[2rem] w-[2rem] items-center justify-center rounded-full p-4`}
           >
             <RxHamburgerMenu size={20} className="shrink-0" />
