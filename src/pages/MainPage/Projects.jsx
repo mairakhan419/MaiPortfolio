@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import projects from '../../projects/projects.json';
-import Fade from 'react-reveal/Fade';
 
 function Projects() {
   const [isScroll, setIsScroll] = useState(false);
@@ -39,13 +38,11 @@ function Projects() {
                   </div>
                 </div>
               </div>
-              <Fade bottom>
-                <div className="lg:w-1/2">
-                  {images.map((img, index) => (
-                    <img key={index} src={img} className="mb-2" />
-                  ))}
-                </div>
-              </Fade>
+              <div className="lg:w-1/2">
+                {images.map((img, index) => (
+                  <img key={index} src={img} className="mb-2" />
+                ))}
+              </div>
             </div>
           );
         }
@@ -55,13 +52,11 @@ function Projects() {
             id={`project-${project.name}`}
             className="flex w-full flex-col-reverse bg-white p-4 pt-[5rem] lg:flex-row"
           >
-            <Fade bottom>
-              <div className="lg:w-1/2">
-                {images.map((img, index) => (
-                  <img key={index} src={img} className="mb-2" />
-                ))}
-              </div>
-            </Fade>
+            <div className="lg:w-1/2">
+              {images.map((img, index) => (
+                <img key={index} src={img} className="mb-2" />
+              ))}
+            </div>
             <div className="flex justify-center lg:sticky lg:top-[4rem] lg:h-[25rem] lg:w-1/2">
               <div className="flex flex-col gap-4 lg:p-8">
                 <div className="title-gradient bg-white py-4 text-2xl font-medium tracking-widest lg:block lg:text-5xl">
